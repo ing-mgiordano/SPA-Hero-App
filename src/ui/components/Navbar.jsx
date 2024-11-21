@@ -50,7 +50,6 @@ export const Navbar = () => {
                     </NavLink>
                 </div>
             </div>
-            <PublicRoute />
 
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
