@@ -16,7 +16,7 @@ export const Hero = () => {
   //useCallback para memorizar funciones
   
   const hero = useMemo( () => getHeroById( id ), [id])
-  const heroImgUrl = `/assets/heroes/${ id }.jpg`
+  const heroImgUrl = `/heroes/${ id }.jpg`
 
   const onNavigateBack = () => {
     if(hero.publisher === 'Marvel Comics') {
